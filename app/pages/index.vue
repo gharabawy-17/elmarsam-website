@@ -312,7 +312,7 @@
             <p class="text-gray-600 mb-6">{{ review.text }}</p>
             <div class="flex items-center">
               <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold mr-4">
-                {{ review.name.charAt(0) }}
+                {{ review.name }}
               </div>
               <div>
                 <h4 class="font-bold">{{ review.name }}</h4>
