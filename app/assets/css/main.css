@@ -1,0 +1,27 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+@layer base {
+  html {
+    font-family: 'Cairo', sans-serif;
+  }
+  html[dir="ltr"] {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-8 py-3.5 rounded-lg text-base font-bold cursor-pointer transition-all duration-300 ease-out text-center border-none no-underline;
+  }
+  .btn-primary {
+    @apply bg-primary text-white shadow-lg;
+  }
+  .btn-primary:hover {
+    @apply bg-primary-dark -translate-y-1 shadow-xl;
+  }
+}
