@@ -2180,15 +2180,270 @@ async function getLocaleMessagesMerged(locale, loaders = []) {
   return merged;
 }
 
-// @ts-nocheck
+var pageTitle$1 = "المرسم | مساحة للفن والإبداع";
+var meta$1 = {
+	description: "المرسم إبداع يجمع بين تعلم الفن والموسيقى، وتوفير بيئة هادئة للعمل المستقل والتركيز.",
+	keywords: "فن, رسم, موسيقى, دورات, منتجات فنية, مساحة عمل, إبداع"
+};
+var common$1 = {
+	bookNow: "احجز الآن",
+	buyNow: "اشترِ الآن",
+	currency: "ج.م"
+};
+var nav$1 = {
+	about: "عن المرسم",
+	courses: "الدورات",
+	products: "المنتجات",
+	workspace: "مساحة العمل",
+	gallery: "المعرض",
+	reviews: "آراء المتدربين",
+	contact: "تواصل معنا"
+};
+var hero$1 = {
+	titlePrefix: "مرحباً بك في",
+	brand: "المرسم",
+	tagline: "المرسم إبداع يجمع بين تعلم الفن والموسيقى، وتوفير بيئة هادئة للعمل المستقل والتركيز.",
+	btnBookCourse: "احجز كورس",
+	btnBookWorkspace: "احجز مكان للعمل"
+};
+var about$1 = {
+	subtitle: "من نحن",
+	title: "اكتشف مساحتك الإبداعية",
+	p1: "المرسم هو أكثر من مجرد مساحة؛ إنه مجتمع متكامل للمبدعين. نهدف إلى خلق نقطة التقاء بين الشغف والاحتراف، حيث يمكن للفنانين والطلاب والمستقلين أن يجدوا الإلهام والتوجيه.",
+	p2: "رؤيتنا هي دعم المبدعين وبناء مجتمع فني متماسك من خلال توفير دورات احترافية ومساحات عمل مجهزة بأعلى مستوى تدعم إنتاجيتك وراحتك في بيئة هادئة.",
+	features: {
+		art: "تعليم فني",
+		music: "تعليم موسيقي",
+		workspace: "مساحة عمل"
+	}
+};
+var courses$1 = {
+	subtitle: "تعلم معنا",
+	title: "اكتشف مواهبك ومهاراتك",
+	desc: "نقدم مجموعة مختارة من الدورات الفنية والموسيقية تناسب جميع المستويات، تحت إشراف نخبة من المحترفين."
+};
+var products$1 = {
+	subtitle: "متجر المرسم",
+	title: "منتجات مختارة للمبدعين",
+	desc: "تصفح أدوات فنية عالية الجودة تساعدك على تطوير أعمالك وإطلاق إبداعك."
+};
+var workspace$1 = {
+	subtitle: "مساحة عملك المثالية",
+	title: "مكان يجمع بين الهدوء والإلهام",
+	desc: "سواء كنت فناناً يبحث عن زاوية هادئة لتطوير أعماله، أو طالباً يحتاج إلى بيئة تركز على الدراسة، فإن مساحة العمل في المرسم توفر لك مكاتب مريحة وإنترنت عالي السرعة وأجواء تحفز الإبداع.",
+	features: {
+		wifi: "إنترنت سريع",
+		coffee: "مشروبات مجانية",
+		comfort: "جلسات مريحة",
+		flexible: "حجز مرن (يومي/ساعة)"
+	},
+	cta: "احجز مكانك الآن"
+};
+var gallery$1 = {
+	subtitle: "عدسة المرسم",
+	title: "جولة في قلب الإبداع"
+};
+var testimonials$1 = {
+	subtitle: "آراء",
+	title: "ماذا يقولون عنا؟",
+	reviews: [
+		{
+			text: "أفضل مكان للرسم والتركيز! البيئة ملهمة جداً والمدربون يهتمون بكل التفاصيل.",
+			name: "سارة محمود",
+			role: "متدربة دورة الرسم"
+		},
+		{
+			text: "مساحة العمل مثالية للإنجاز. الهدوء والجو العام المحاط بالفن يجعل العمل هنا ممتعاً.",
+			name: "محمد سعيد",
+			role: "مستقل (Freelancer)"
+		}
+	]
+};
+var contact$1 = {
+	subtitle: "ابقى على تواصل",
+	title: "تواصل معنا",
+	desc: "سواء كنت ترغب في حجز دورة، أو مكان للعمل، أو لديك أي استفسار، فريقنا جاهز لمساعدتك!",
+	locationLabel: "الموقع",
+	phoneLabel: "رقم الهاتف",
+	emailLabel: "البريد الإلكتروني",
+	location: "كفر الدوار، شارع المحكمة",
+	phone: "+20 100 123 4567",
+	email: "info{'@'}al-marsam.com",
+	form: {
+		title: "أرسل رسالة",
+		name: "الاسم بالكامل",
+		email: "البريد الإلكتروني",
+		service: "نوع الخدمة",
+		message: "الرسالة",
+		submit: "إرسال الرسالة",
+		options: {
+			course: "حجز دورة",
+			workspace: "حجز مساحة عمل",
+			other: "استفسار عام"
+		}
+	}
+};
+var footer$1 = {
+	copyright: "© 2026 المرسم (Al-Marsam). جميع الحقوق محفوظة."
+};
+const locale_ar_46json_de293923 = {
+	pageTitle: pageTitle$1,
+	meta: meta$1,
+	common: common$1,
+	nav: nav$1,
+	hero: hero$1,
+	about: about$1,
+	courses: courses$1,
+	products: products$1,
+	workspace: workspace$1,
+	gallery: gallery$1,
+	testimonials: testimonials$1,
+	contact: contact$1,
+	footer: footer$1
+};
 
+var pageTitle = "Al-Marsam | Art & Creativity Space";
+var meta = {
+	description: "Al-Marsam blends art and music education with a calm workspace for focus and creativity.",
+	keywords: "art, drawing, music, courses, products, workspace, creativity"
+};
+var common = {
+	bookNow: "Book Now",
+	buyNow: "Buy Now",
+	currency: "EGP"
+};
+var nav = {
+	about: "About Us",
+	courses: "Courses",
+	products: "Products",
+	workspace: "Workspace",
+	gallery: "Gallery",
+	reviews: "Reviews",
+	contact: "Contact"
+};
+var hero = {
+	titlePrefix: "Welcome to",
+	brand: "Al-Marsam",
+	tagline: "A creative hub blending art and music education with a calm workspace for independent focus.",
+	btnBookCourse: "Book a Course",
+	btnBookWorkspace: "Reserve Workspace"
+};
+var about = {
+	subtitle: "Who We Are",
+	title: "Discover Your Creative Space",
+	p1: "Al-Marsam is more than just a space; it's a vibrant community for creators where passion meets professionalism.",
+	p2: "Our vision is to support creators through professional courses and premium workspaces designed for comfort and productivity.",
+	features: {
+		art: "Art Education",
+		music: "Music Education",
+		workspace: "Workspace"
+	}
+};
+var courses = {
+	subtitle: "Learn With Us",
+	title: "Unleash Your Talents & Skills",
+	desc: "We offer a curated selection of art and music courses for all levels, taught by experienced professionals."
+};
+var products = {
+	subtitle: "Al-Marsam Store",
+	title: "Curated Products for Creators",
+	desc: "Browse quality art tools and supplies that help you level up your creative work."
+};
+var workspace = {
+	subtitle: "Your Perfect Workspace",
+	title: "A Place of Calm & Inspiration",
+	desc: "Whether you're an artist seeking a quiet corner or a student who needs focus, our workspace gives you comfort, speed, and inspiration.",
+	features: {
+		wifi: "Fast Internet",
+		coffee: "Free Beverages",
+		comfort: "Comfortable Seating",
+		flexible: "Flexible Booking (Daily/Hourly)"
+	},
+	cta: "Reserve Your Spot"
+};
+var gallery = {
+	subtitle: "Through Al-Marsam Lens",
+	title: "A Tour in the Heart of Creativity"
+};
+var testimonials = {
+	subtitle: "Reviews",
+	title: "What They Say About Us",
+	reviews: [
+		{
+			text: "Best place for drawing and deep focus. The atmosphere is very inspiring.",
+			name: "Sara Mahmoud",
+			role: "Drawing Course Student"
+		},
+		{
+			text: "Perfect workspace for productivity, with a quiet and motivating environment.",
+			name: "mohamed saied",
+			role: "Freelancer"
+		}
+	]
+};
+var contact = {
+	subtitle: "Stay in Touch",
+	title: "Contact Us",
+	desc: "Whether you want to book a course, reserve workspace, or ask a question, our team is ready to help.",
+	locationLabel: "Location",
+	phoneLabel: "Phone",
+	emailLabel: "Email",
+	location: "Kafr El-Dawwar, Al-Mahkama Street",
+	phone: "+20 100 123 4567",
+	email: "info{'@'}al-marsam.com",
+	form: {
+		title: "Send a Message",
+		name: "Full Name",
+		email: "Email Address",
+		service: "Service Type",
+		message: "Message",
+		submit: "Send Message",
+		options: {
+			course: "Book a Course",
+			workspace: "Reserve Workspace",
+			other: "General Inquiry"
+		}
+	}
+};
+var footer = {
+	copyright: "© 2026 Al-Marsam. All rights reserved."
+};
+const locale_en_46json_3775d669 = {
+	pageTitle: pageTitle,
+	meta: meta,
+	common: common,
+	nav: nav,
+	hero: hero,
+	about: about,
+	courses: courses,
+	products: products,
+	workspace: workspace,
+	gallery: gallery,
+	testimonials: testimonials,
+	contact: contact,
+	footer: footer
+};
+
+// @ts-nocheck
 const localeCodes =  [
   "ar",
   "en"
 ];
 const localeLoaders = {
-  ar: [],
-  en: []
+  ar: [
+    {
+      key: "locale_ar_46json_de293923",
+      load: () => Promise.resolve(locale_ar_46json_de293923),
+      cache: true
+    }
+  ],
+  en: [
+    {
+      key: "locale_en_46json_3775d669",
+      load: () => Promise.resolve(locale_en_46json_3775d669),
+      cache: true
+    }
+  ]
 };
 const vueI18nConfigs = [];
 const normalizedLocales = [
@@ -2697,7 +2952,7 @@ const _SKAbhzkdgdmUPDYPoELGPppHnAM1X4ME5A8RVL6HE = defineNitroPlugin(async (nitr
     const localeSegment = detector.route(event.path);
     const pathLocale = isSupportedLocale(localeSegment) && localeSegment || void 0;
     const path = (pathLocale && url.pathname.slice(pathLocale.length + 1)) ?? url.pathname;
-    if (!url.pathname.includes("/_i18n/dNtsQj68") && !isExistingNuxtRoute(path)) {
+    if (!url.pathname.includes("/_i18n/7GobSCpL") && !isExistingNuxtRoute(path)) {
       return;
     }
     const resolved = resolveRedirectPath(event, path, pathLocale, ctx.vueI18nOptions.defaultLocale, detector);

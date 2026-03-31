@@ -3,10 +3,10 @@
     <div class="container mx-auto px-5">
 
       <div class="text-center mb-14">
-        <h4 class="text-[#d4a373] font-bold uppercase tracking-widest mb-3">تعلم معنا</h4>
-        <h2 class="text-4xl font-extrabold mb-4">اكتشف مواهبك ومهاراتك</h2>
-        <p class="text-gray-500 max-w-xl mx-auto">
-          نقدم مجموعة مختارة من الدورات الفنية والموسيقية تناسب جميع المستويات، تحت إشراف نخبة من المحترفين.
+        <h4 class="text-[#d4a373] font-bold uppercase tracking-widest mb-3">{{ t('courses.subtitle') }}</h4>
+        <h2 class="text-4xl font-extrabold mb-4 text-gray-900 dark:text-white">{{ t('courses.title') }}</h2>
+        <p class="text-gray-500 dark:text-gray-300 max-w-xl mx-auto">
+          {{ t('courses.desc') }}
         </p>
       </div>
 
@@ -20,6 +20,9 @@
 
 <script setup>
 import CourseCard from './CourseCard.vue'
+import { useI18n } from '#imports'
+
+const { t } = useI18n()
 
 const courses = [
   {

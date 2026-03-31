@@ -26,24 +26,24 @@
       <div class="max-w-3xl mx-auto text-white">
         <h1 class="font-extrabold leading-tight mb-6"
           style="font-size: clamp(2.5rem, 8vw, 4.5rem); text-shadow: 0 4px 20px rgba(0,0,0,0.3)">
-          <span class="text-[#d4a373]">مرحباً بك في</span>
-          <span> المرسم</span>
+          <span class="text-[#d4a373]">{{ t('hero.titlePrefix') }}</span>
+          <span> {{ t('hero.brand') }}</span>
         </h1>
 
         <p class="mb-12 opacity-95 font-light max-w-2xl mx-auto"
           style="font-size: clamp(1.1rem, 4vw, 1.4rem)">
-          المرسم إبداع يجمع بين تعلم الفن والموسيقى، وتوفير بيئة هادئة للعمل المستقل والتركيز.
+          {{ t('hero.tagline') }}
         </p>
 
         <div class="flex flex-col sm:flex-row gap-6 justify-center">
           <a href="#courses"
             class="px-8 py-4 rounded-lg font-bold text-white bg-[#d4a373] hover:bg-[#b5835a] transition-all hover:-translate-y-1 shadow-lg"
             style="box-shadow: 0 4px 15px rgba(212,163,115,0.3)">
-            احجز كورس
+            {{ t('hero.btnBookCourse') }}
           </a>
           <a href="#workspace"
             class="px-8 py-4 rounded-lg font-bold text-white border-2 border-white hover:bg-white hover:text-gray-900 transition-all hover:-translate-y-1">
-            احجز مكان للعمل
+            {{ t('hero.btnBookWorkspace') }}
           </a>
         </div>
       </div>
@@ -60,8 +60,10 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { useI18n } from '#imports'
 
 const videoRef = ref(null)
+const { t } = useI18n()
 
 onMounted(() => {
   // ضمان التشغيل التلقائي حتى لو المتصفح عنده قيود

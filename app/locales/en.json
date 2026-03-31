@@ -1,0 +1,108 @@
+{
+  "pageTitle": "Al-Marsam | Art & Creativity Space",
+  "meta": {
+    "description": "Al-Marsam blends art and music education with a calm workspace for focus and creativity.",
+    "keywords": "art, drawing, music, courses, products, workspace, creativity"
+  },
+  "common": {
+    "bookNow": "Book Now",
+    "buyNow": "Buy Now",
+    "currency": "EGP"
+  },
+  "nav": {
+    "about": "About Us",
+    "courses": "Courses",
+    "products": "Products",
+    "workspace": "Workspace",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "contact": "Contact"
+  },
+  "hero": {
+    "titlePrefix": "Welcome to",
+    "brand": "Al-Marsam",
+    "tagline": "A creative hub blending art and music education with a calm workspace for independent focus.",
+    "btnBookCourse": "Book a Course",
+    "btnBookWorkspace": "Reserve Workspace"
+  },
+  "about": {
+    "subtitle": "Who We Are",
+    "title": "Discover Your Creative Space",
+    "p1": "Al-Marsam is more than just a space; it's a vibrant community for creators where passion meets professionalism.",
+    "p2": "Our vision is to support creators through professional courses and premium workspaces designed for comfort and productivity.",
+    "features": {
+      "art": "Art Education",
+      "music": "Music Education",
+      "workspace": "Workspace"
+    }
+  },
+  "courses": {
+    "subtitle": "Learn With Us",
+    "title": "Unleash Your Talents & Skills",
+    "desc": "We offer a curated selection of art and music courses for all levels, taught by experienced professionals."
+  },
+  "products": {
+    "subtitle": "Al-Marsam Store",
+    "title": "Curated Products for Creators",
+    "desc": "Browse quality art tools and supplies that help you level up your creative work."
+  },
+  "workspace": {
+    "subtitle": "Your Perfect Workspace",
+    "title": "A Place of Calm & Inspiration",
+    "desc": "Whether you're an artist seeking a quiet corner or a student who needs focus, our workspace gives you comfort, speed, and inspiration.",
+    "features": {
+      "wifi": "Fast Internet",
+      "coffee": "Free Beverages",
+      "comfort": "Comfortable Seating",
+      "flexible": "Flexible Booking (Daily/Hourly)"
+    },
+    "cta": "Reserve Your Spot"
+  },
+  "gallery": {
+    "subtitle": "Through Al-Marsam Lens",
+    "title": "A Tour in the Heart of Creativity"
+  },
+  "testimonials": {
+    "subtitle": "Reviews",
+    "title": "What They Say About Us",
+    "reviews": [
+      {
+        "text": "Best place for drawing and deep focus. The atmosphere is very inspiring.",
+        "name": "Sara Mahmoud",
+        "role": "Drawing Course Student"
+      },
+      {
+        "text": "Perfect workspace for productivity, with a quiet and motivating environment.",
+        "name": "Ahmed Kamal",
+        "role": "Freelancer"
+      }
+    ]
+  },
+  "contact": {
+    "subtitle": "Stay in Touch",
+    "title": "Contact Us",
+    "desc": "Whether you want to book a course, reserve workspace, or ask a question, our team is ready to help.",
+    "locationLabel": "Location",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "location": "Kafr El-Dawwar, Al-Mahkama Street",
+    "phone": "+20 100 123 4567",
+    "email": "info{'@'}al-marsam.com",
+    "form": {
+      "title": "Send a Message",
+      "name": "Full Name",
+      "email": "Email Address",
+      "service": "Service Type",
+      "message": "Message",
+      "submit": "Send Message",
+      "options": {
+        "course": "Book a Course",
+        "workspace": "Reserve Workspace",
+        "other": "General Inquiry"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Al-Marsam. All rights reserved."
+  }
+}

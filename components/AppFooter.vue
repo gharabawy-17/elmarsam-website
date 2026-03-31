@@ -5,8 +5,14 @@
         المرسم <span>.</span>
       </div>
       <p class="text-gray-400">
-        {{ $t('footer.copyright') }}
+        {{ t('footer.copyright') }}
       </p>
     </div>
   </footer>
 </template>
+
+<script setup lang="ts">
+import { useI18n } from '#imports'
+
+const { t } = useI18n()
+</script>

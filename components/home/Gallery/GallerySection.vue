@@ -4,9 +4,9 @@
 
       <!-- Header -->
       <div class="text-center mb-14">
-        <h4 class="text-[#d4a373] font-bold uppercase tracking-widest mb-3">عدسة المرسم</h4>
-        <h2 class="text-4xl font-extrabold">
-          جولة في قلب <span class="text-[#d4a373]">الإبداع</span>
+        <h4 class="text-[#d4a373] font-bold uppercase tracking-widest mb-3">{{ t('gallery.subtitle') }}</h4>
+        <h2 class="text-4xl font-extrabold text-gray-900 dark:text-white">
+          {{ t('gallery.title') }}
         </h2>
       </div>
 
@@ -89,6 +89,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useI18n } from '#imports'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { EffectCoverflow, Autoplay, Pagination, Navigation } from 'swiper/modules'
 
@@ -98,6 +99,7 @@ import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
 const modules = [EffectCoverflow, Autoplay, Pagination, Navigation]
+const { t } = useI18n()
 
 const modalSrc = ref(null)
 const openModal = (src) => {
