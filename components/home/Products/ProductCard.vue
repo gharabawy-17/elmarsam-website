@@ -13,7 +13,7 @@
       <p class="text-sm text-gray-600 dark:text-gray-300 leading-relaxed mb-4 flex-grow">{{ localizedDescription }}</p>
       <div class="flex items-center justify-between gap-3">
         <span class="text-lg font-bold text-primary">{{ product.price }} {{ t('common.currency') }}</span>
-        <button class="btn btn-primary px-5 py-2.5 text-sm">
+        <button @click="handleBuyNow" class="btn btn-primary px-5 py-2.5 text-sm">
           {{ t('common.buyNow') }}
         </button>
       </div>
@@ -24,6 +24,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { useContact } from '../../../composables/useContact'
 
 interface LocalizedText {
   ar: string
@@ -40,7 +41,16 @@ interface Product {
 
 const props = defineProps<{ product: Product }>()
 const { locale, t } = useI18n()
+const { prefillForm } = useContact()
 
 const localizedTitle = computed(() => props.product.title[locale.value as 'ar' | 'en'] || props.product.title.ar)
 const localizedDescription = computed(() => props.product.description[locale.value as 'ar' | 'en'] || props.product.description.ar)
+
+const handleBuyNow = () => {
+  const message = t('contact.form.whatsapp.product', { 
+    title: localizedTitle.value, 
+    price: props.product.price 
+  })
+  prefillForm('other', message)
+}
 </script>

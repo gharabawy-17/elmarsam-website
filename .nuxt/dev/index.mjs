@@ -2288,6 +2288,11 @@ var contact$1 = {
 			course: "حجز دورة",
 			workspace: "حجز مساحة عمل",
 			other: "استفسار عام"
+		},
+		whatsapp: {
+			course: "مرحباً، أود الاستفسار عن كورس: {title}",
+			product: "مرحباً، أود شراء منتج: {title} - السعر: {price}",
+			workspace: "مرحباً، أود حجز مكان في مساحة العمل"
 		}
 	}
 };
@@ -2413,6 +2418,11 @@ var contact = {
 			course: "Book a Course",
 			workspace: "Reserve Workspace",
 			other: "General Inquiry"
+		},
+		whatsapp: {
+			course: "Hello, I would like to inquire about the course: {title}",
+			product: "Hello, I would like to buy: {title} - Price: {price}",
+			workspace: "Hello, I would like to reserve a spot in the workspace"
 		}
 	}
 };
@@ -3079,16 +3089,16 @@ _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 const assets = {
   "/index.mjs": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"225f4-WpAItGVZCIaUXfyFryGxEwMYrTM\"",
-    "mtime": "2026-03-31T14:07:50.665Z",
-    "size": 140788,
+    "etag": "\"226fa-2IUUm41x2qJv7iWtFrZTPytMpzo\"",
+    "mtime": "2026-03-31T14:15:21.307Z",
+    "size": 141050,
     "path": "index.mjs"
   },
   "/index.mjs.map": {
     "type": "application/json",
-    "etag": "\"83931-3mWXfIoxPtg7scyg09VKRAwEHdY\"",
-    "mtime": "2026-03-31T14:07:50.665Z",
-    "size": 538929,
+    "etag": "\"83936-YydL4wk90SP0zV2iTMCukU/OUX4\"",
+    "mtime": "2026-03-31T14:15:21.308Z",
+    "size": 538934,
     "path": "index.mjs.map"
   }
 };

@@ -91,22 +91,16 @@
 </template>
 
 <script setup>
-import { reactive } from 'vue'
 import { useI18n } from '#imports'
+import { useWhatsApp } from '../../../composables/useWhatsApp'
+import { useContact } from '../../../composables/useContact'
 
 const { t } = useI18n()
-
-const form = reactive({
-  name: '',
-  email: '',
-  service: 'course',
-  message: ''
-})
+const { sendWhatsAppMessage } = useWhatsApp()
+const { form } = useContact()
 
 const submitToWhatsApp = () => {
   console.log('form', form);
-  
-  const phoneNumber = t('contact.phone').replace(/[^\d]/g, '')
   
   const services = {
     course: t('contact.form.options.course'),
@@ -124,9 +118,6 @@ const submitToWhatsApp = () => {
 ${form.message}
   `.trim()
 
-  const encodedMessage = encodeURIComponent(messageText)
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`
-  
-  window.open(whatsappUrl, '_blank')
+  sendWhatsAppMessage(messageText)
 }
 </script>

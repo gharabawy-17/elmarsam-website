@@ -38,10 +38,10 @@
             </div>
           </div>
 
-          <a href="#contact"
+          <button @click="handleReserve"
             class="inline-block px-8 py-4 bg-[#d4a373] hover:bg-[#b5835a] text-white font-bold rounded-lg transition-all hover:-translate-y-1">
             {{ t('workspace.cta') }}
-          </a>
+          </button>
         </div>
 
       </div>
@@ -51,6 +51,13 @@
 
 <script setup>
 import { useI18n } from '#imports'
+import { useContact } from '../../../composables/useContact'
 
 const { t } = useI18n()
+const { prefillForm } = useContact()
+
+const handleReserve = () => {
+  const message = t('contact.form.whatsapp.workspace')
+  prefillForm('workspace', message)
+}
 </script>

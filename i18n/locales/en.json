@@ -102,6 +102,11 @@
         "course": "Book a Course",
         "workspace": "Reserve Workspace",
         "other": "General Inquiry"
+      },
+      "whatsapp": {
+        "course": "Hello, I would like to inquire about the course: {title}",
+        "product": "Hello, I would like to buy: {title} - Price: {price}",
+        "workspace": "Hello, I would like to reserve a spot in the workspace"
       }
     }
   },

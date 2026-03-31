@@ -21,16 +21,19 @@
         <span>{{ duration }}</span>
       </div>
 
-      <NuxtLink to="#contact" class="btn btn-primary w-full">
-        سجل الآن
-      </NuxtLink>
+      <button @click="handleBookNow" class="btn btn-primary w-full">
+        {{ t('common.bookNow') }}
+      </button>
     </div>
 
   </div>
 </template>
 
 <script setup lang="ts">
-defineProps({
+import { useI18n } from 'vue-i18n'
+import { useContact } from '../../../composables/useContact'
+
+const props = defineProps({
   title: String,
   desc: String,
   image: String,
@@ -38,4 +41,12 @@ defineProps({
   level: String,
   duration: String
 })
+
+const { t } = useI18n()
+const { prefillForm } = useContact()
+
+const handleBookNow = () => {
+  const message = t('contact.form.whatsapp.course', { title: props.title })
+  prefillForm('course', message)
+}
 </script>
