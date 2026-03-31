@@ -4,7 +4,7 @@
       <div class="flex items-center justify-between">
         <div class="logo">
           <NuxtLink to="/" class="text-2xl font-bold text-primary">
-            المرسم <span class="text-primary">.</span>
+            <img src="../app/assets/img/logo.png" alt="Logo" class="w-14" />
           </NuxtLink>
         </div>
 
