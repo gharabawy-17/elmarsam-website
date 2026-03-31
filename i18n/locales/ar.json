@@ -86,7 +86,7 @@
     "phoneLabel": "رقم الهاتف",
     "emailLabel": "البريد الإلكتروني",
     "location": "كفر الدوار، شارع المحكمة",
-    "phone": "+20 100 123 4567",
+    "phone": "+20 1210593376",
     "email": "info{'@'}al-marsam.com",
     "form": {
       "title": "أرسل رسالة",
@@ -95,6 +95,9 @@
       "service": "نوع الخدمة",
       "message": "الرسالة",
       "submit": "إرسال الرسالة",
+      "namePlaceholder": "أدخل اسمك بالكامل",
+      "emailPlaceholder": "أدخل بريدك الإلكتروني",
+      "messagePlaceholder": "اكتب رسالتك هنا...",
       "options": {
         "course": "حجز دورة",
         "workspace": "حجز مساحة عمل",

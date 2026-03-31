@@ -86,7 +86,7 @@
     "phoneLabel": "Phone",
     "emailLabel": "Email",
     "location": "Kafr El-Dawwar, Al-Mahkama Street",
-    "phone": "+20 100 123 4567",
+    "phone": "+20 1210593376",
     "email": "info{'@'}al-marsam.com",
     "form": {
       "title": "Send a Message",
@@ -95,6 +95,9 @@
       "service": "Service Type",
       "message": "Message",
       "submit": "Send Message",
+      "namePlaceholder": "Enter your full name",
+      "emailPlaceholder": "Enter your email address",
+      "messagePlaceholder": "Write your message here...",
       "options": {
         "course": "Book a Course",
         "workspace": "Reserve Workspace",

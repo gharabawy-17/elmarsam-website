@@ -2272,7 +2272,7 @@ var contact$1 = {
 	phoneLabel: "رقم الهاتف",
 	emailLabel: "البريد الإلكتروني",
 	location: "كفر الدوار، شارع المحكمة",
-	phone: "+20 100 123 4567",
+	phone: "+20 1210593376",
 	email: "info{'@'}al-marsam.com",
 	form: {
 		title: "أرسل رسالة",
@@ -2281,6 +2281,9 @@ var contact$1 = {
 		service: "نوع الخدمة",
 		message: "الرسالة",
 		submit: "إرسال الرسالة",
+		namePlaceholder: "أدخل اسمك بالكامل",
+		emailPlaceholder: "أدخل بريدك الإلكتروني",
+		messagePlaceholder: "اكتب رسالتك هنا...",
 		options: {
 			course: "حجز دورة",
 			workspace: "حجز مساحة عمل",
@@ -2394,7 +2397,7 @@ var contact = {
 	phoneLabel: "Phone",
 	emailLabel: "Email",
 	location: "Kafr El-Dawwar, Al-Mahkama Street",
-	phone: "+20 100 123 4567",
+	phone: "+20 1210593376",
 	email: "info{'@'}al-marsam.com",
 	form: {
 		title: "Send a Message",
@@ -2403,6 +2406,9 @@ var contact = {
 		service: "Service Type",
 		message: "Message",
 		submit: "Send Message",
+		namePlaceholder: "Enter your full name",
+		emailPlaceholder: "Enter your email address",
+		messagePlaceholder: "Write your message here...",
 		options: {
 			course: "Book a Course",
 			workspace: "Reserve Workspace",
@@ -3070,7 +3076,22 @@ _vNSADbx12TsGupBzfQmJthiOOs7QnpO4a0mgMz8cUJU,
 _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 ];
 
-const assets = {};
+const assets = {
+  "/index.mjs": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": "\"225f4-WpAItGVZCIaUXfyFryGxEwMYrTM\"",
+    "mtime": "2026-03-31T14:07:50.665Z",
+    "size": 140788,
+    "path": "index.mjs"
+  },
+  "/index.mjs.map": {
+    "type": "application/json",
+    "etag": "\"83931-3mWXfIoxPtg7scyg09VKRAwEHdY\"",
+    "mtime": "2026-03-31T14:07:50.665Z",
+    "size": 538929,
+    "path": "index.mjs.map"
+  }
+};
 
 function readAsset (id) {
   const serverDir = dirname$1(fileURLToPath(globalThis._importMeta_.url));

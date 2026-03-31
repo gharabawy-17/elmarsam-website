@@ -56,17 +56,17 @@
           <div class="flex flex-col gap-6">
             <div>
               <label class="block font-semibold mb-2 text-sm text-gray-800 dark:text-gray-200">{{ t('contact.form.name') }}</label>
-              <input type="text" placeholder="أدخل اسمك"
+              <input v-model="form.name" type="text" :placeholder="t('contact.form.namePlaceholder')"
                 class="w-full px-5 py-4 rounded-lg border-2 border-gray-200 dark:border-white/10 bg-gray-50 dark:bg-white/5 focus:outline-none focus:border-[#d4a373] transition-all" />
             </div>
             <div>
               <label class="block font-semibold mb-2 text-sm text-gray-800 dark:text-gray-200">{{ t('contact.form.email') }}</label>
-              <input type="email" placeholder="أدخل بريدك الإلكتروني"
+              <input v-model="form.email" type="email" :placeholder="t('contact.form.emailPlaceholder')"
                 class="w-full px-5 py-4 rounded-lg border-2 border-gray-200 dark:border-white/10 bg-gray-50 dark:bg-white/5 focus:outline-none focus:border-[#d4a373] transition-all" />
             </div>
             <div>
               <label class="block font-semibold mb-2 text-sm text-gray-800 dark:text-gray-200">{{ t('contact.form.service') }}</label>
-              <select class="w-full px-5 py-4 rounded-lg border-2 border-gray-200 dark:border-white/10 bg-gray-50 dark:bg-white/5 focus:outline-none focus:border-[#d4a373] transition-all">
+              <select v-model="form.service" class="w-full px-5 py-4 rounded-lg border-2 border-gray-200 dark:border-white/10 bg-gray-50 dark:bg-white/5 focus:outline-none focus:border-[#d4a373] transition-all">
                 <option value="course">{{ t('contact.form.options.course') }}</option>
                 <option value="workspace">{{ t('contact.form.options.workspace') }}</option>
                 <option value="other">{{ t('contact.form.options.other') }}</option>
@@ -74,10 +74,11 @@
             </div>
             <div>
               <label class="block font-semibold mb-2 text-sm text-gray-800 dark:text-gray-200">{{ t('contact.form.message') }}</label>
-              <textarea rows="4" placeholder="اكتب رسالتك هنا..."
+              <textarea v-model="form.message" rows="4" :placeholder="t('contact.form.messagePlaceholder')"
                 class="w-full px-5 py-4 rounded-lg border-2 border-gray-200 dark:border-white/10 bg-gray-50 dark:bg-white/5 focus:outline-none focus:border-[#d4a373] transition-all resize-y min-h-28"></textarea>
             </div>
             <button
+              @click="submitToWhatsApp"
               class="w-full py-4 bg-[#d4a373] hover:bg-[#b5835a] text-white font-bold rounded-lg transition-all hover:-translate-y-1 shadow-lg">
               {{ t('contact.form.submit') }}
             </button>
@@ -90,7 +91,42 @@
 </template>
 
 <script setup>
+import { reactive } from 'vue'
 import { useI18n } from '#imports'
 
 const { t } = useI18n()
+
+const form = reactive({
+  name: '',
+  email: '',
+  service: 'course',
+  message: ''
+})
+
+const submitToWhatsApp = () => {
+  console.log('form', form);
+  
+  const phoneNumber = t('contact.phone').replace(/[^\d]/g, '')
+  
+  const services = {
+    course: t('contact.form.options.course'),
+    workspace: t('contact.form.options.workspace'),
+    other: t('contact.form.options.other')
+  }
+
+  const messageText = `
+*${t('contact.form.title')}*
+--------------------------
+*${t('contact.form.name')}:* ${form.name}
+*${t('contact.form.email')}:* ${form.email}
+*${t('contact.form.service')}:* ${services[form.service]}
+*${t('contact.form.message')}:*
+${form.message}
+  `.trim()
+
+  const encodedMessage = encodeURIComponent(messageText)
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`
+  
+  window.open(whatsappUrl, '_blank')
+}
 </script>
