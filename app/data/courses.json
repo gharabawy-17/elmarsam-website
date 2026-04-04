@@ -1,0 +1,358 @@
+[
+    {
+        "id": "drawing-foundation",
+        "category": "drawing",
+        "title": {
+            "ar": "تأهيل رسم للأطفال",
+            "en": "Drawing Rehabilitation"
+        },
+        "description": {
+            "ar": "كورس تأهيلي للأطفال من سن سنتين ونصف حتى 4 سنوات.",
+            "en": "Rehabilitation course for children aged 2.5 to 4 years."
+        },
+        "age": "2.5 - 4",
+        "materialsIncluded": false,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970420/IMG_9395_v30fzg.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970406/IMG_1588_anrrvn.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970421/IMG_9392_tp4gwx.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970424/IMG_9222_ls5ayn.jpg"
+        ]
+    },
+    {
+        "id": "drawing-basics-kids",
+        "category": "drawing",
+        "title": {
+            "ar": "أساسيات الرسم للاطفال",
+            "en": "Drawing Basics for Kids"
+        },
+        "description": {
+            "ar": "كورس أساسيات الرسم للأطفال من سن 4 لـ 8 سنوات.",
+            "en": "Drawing basics for children aged 4 to 8 years."
+        },
+        "age": "4 - 8",
+        "materialsIncluded": false,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970357/IMG_5035_kycglm.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970401/IMG_2215_js5yub.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970351/IMG_1301_hpgnzn.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970343/IMG_5041_cr95hl.jpg"
+        ]
+    },
+    {
+        "id": "drawing-academic-9-20",
+        "category": "drawing",
+        "title": {
+            "ar": "أساسيات الرسم (منهج أكاديمي)",
+            "en": "Academic Drawing Basics (9-20)"
+        },
+        "description": {
+            "ar": "منهج أكاديمي يدرس في الكليات الفنية للفئة العمرية من 9 لـ 20 سنة.",
+            "en": "Academic curriculum for ages 9 to 20."
+        },
+        "age": "9 - 20",
+        "materialsIncluded": false,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970385/575D47D7-8EA0-4CD5-80F0-F2066E06609E_i2klmd.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970418/IMG_9465_ohewzc.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970419/IMG_9524_vvjpv1.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970385/IMG_4903_mjuzbd.jpg"
+        ]
+    },
+    {
+        "id": "drawing-academic-adults",
+        "category": "drawing",
+        "title": {
+            "ar": "أساسيات الرسم للكبار",
+            "en": "Drawing Basics for Adults"
+        },
+        "description": {
+            "ar": "منهج أكاديمي للكبار من سن 20 حتى 70 سنة.",
+            "en": "Academic curriculum for adults aged 20 to 70."
+        },
+        "age": "20 - 70",
+        "materialsIncluded": false,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970356/IMG_2340_bkg1wo.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970346/D6999527-2875-4BBB-AD6A-33D785920783_twtzh1.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970366/IMG_7648_wocw3j.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970360/IMG_0363_flrf98.jpg"
+        ]
+    },
+    {
+        "id": "anatomy",
+        "category": "drawing",
+        "title": {
+            "ar": "كورس التشريح",
+            "en": "Anatomy Course"
+        },
+        "description": {
+            "ar": "كورس تأهيلي لكورس البورتريه، يتطلب أساسيات الرسم.",
+            "en": "Prerequisite for Portrait course, requires drawing basics."
+        },
+        "materialsIncluded": false,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970365/IMG_8466_ucbpdp.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970366/IMG_7649_un9z0m.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970408/IMG_1332_dni7qh.jpg"
+        ]
+    },
+    {
+        "id": "portrait",
+        "category": "drawing",
+        "title": {
+            "ar": "كورس البورتريه",
+            "en": "Portrait Painting"
+        },
+        "description": {
+            "ar": "رسم الأشخاص باحترافية، يتطلب أساسيات الرسم والتشريح.",
+            "en": "Professional portrait painting, requires basics and anatomy."
+        },
+        "materialsIncluded": false,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970408/IMG_1332_dni7qh.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970418/IMG_9467_ensqcz.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970419/IMG_9477_qr9y0c.jpg"
+        ]
+    },
+    {
+        "id": "drawing-materials",
+        "category": "drawing",
+        "title": {
+            "ar": "خامات الرسم المختلفة",
+            "en": "Art Materials Course"
+        },
+        "description": {
+            "ar": "ألوان زيت، أكريليك، فحم، سوفت باستيل، وأويل باستيل.",
+            "en": "Oil, Acrylic, Charcoal, Soft Pastel, and Oil Pastel."
+        },
+        "materialsIncluded": false,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970396/IMG_2470_azllvp.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970365/IMG_8456_rtvorj.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970350/IMG_4771_qwuuf0.jpg"
+        ]
+    },
+    {
+        "id": "sculpture",
+        "category": "arts_crafts",
+        "title": {
+            "ar": "كورس النحت",
+            "en": "Sculpture Course"
+        },
+        "description": {
+            "ar": "مستويات مختلفة تبدأ من سن 4 سنوات.",
+            "en": "Different levels starting from age 4."
+        },
+        "age": "4+",
+        "materialsIncluded": true,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970360/IMG_0377_pliczg.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970342/IMG_2568_kcxmwz.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970359/IMG_0382_luiajg.jpg"
+        ]
+    },
+    {
+        "id": "pottery",
+        "category": "arts_crafts",
+        "title": {
+            "ar": "كورس الفخار",
+            "en": "Pottery Course"
+        },
+        "description": {
+            "ar": "تعلم صناعة الفخار من سن 4 سنوات.",
+            "en": "Learn pottery making from age 4."
+        },
+        "age": "4+",
+        "materialsIncluded": true,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970345/IMG_4815_sp8xn1.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970399/IMG_2608_e7ysbd.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970396/IMG_2656_rrqaus.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970346/IMG_4799_jijqqb.jpg"
+        ]
+    },
+    {
+        "id": "mosaic",
+        "category": "arts_crafts",
+        "title": {
+            "ar": "كورس الموزايك",
+            "en": "Mosaic Course"
+        },
+        "description": {
+            "ar": "فن الموزايك من سن 12 سنة.",
+            "en": "Mosaic art from age 12."
+        },
+        "age": "12+",
+        "materialsIncluded": true,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970342/IMG_2568_kcxmwz.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970341/IMG_5126_dbdccu.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970412/IMG_0648_nmznec.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970408/IMG_1332_dni7qh.jpg"
+        ]
+    },
+    {
+        "id": "piano",
+        "category": "music",
+        "title": {
+            "ar": "بيانو",
+            "en": "Piano"
+        },
+        "description": {
+            "ar": "من سن 4 سنوات.",
+            "en": "From age 4."
+        },
+        "age": "4+",
+        "materialsIncluded": true,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1775304221/Art_of_music_tshdwp.jpg"
+        ]
+    },
+    {
+        "id": "violin",
+        "category": "music",
+        "title": {
+            "ar": "كمان",
+            "en": "Violin"
+        },
+        "description": {
+            "ar": "من سن 12 سنة.",
+            "en": "From age 12."
+        },
+        "age": "12+",
+        "materialsIncluded": true,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970373/IMG_5957_b5kxuj.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970372/IMG_5959_ni8k23.jpg"
+        ]
+    },
+    {
+        "id": "guitar",
+        "category": "music",
+        "title": {
+            "ar": "جيتار",
+            "en": "Guitar"
+        },
+        "description": {
+            "ar": "من سن 12 سنة.",
+            "en": "From age 12."
+        },
+        "age": "12+",
+        "materialsIncluded": true,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://images.unsplash.com/photo-1525201548942-d8732f6617a0?q=80&w=2070&auto=format&fit=crop"
+        ]
+    },
+    {
+        "id": "macrame",
+        "category": "handmade",
+        "title": {
+            "ar": "مكرمية",
+            "en": "Macrame"
+        },
+        "description": {
+            "ar": "تعلم فن العقد اليدوية.",
+            "en": "Learn the art of hand knots."
+        },
+        "materialsIncluded": true,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970356/IMG_0869_cns2tj.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970356/3A97204D-DAA8-4A19-A24D-94DB1A9EC1C1_mfzk5o.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970332/IMG_3480_jkvbwq.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970355/IMG_0879_wtcfgo.jpg"
+        ]
+    },
+    {
+        "id": "punch-needle",
+        "category": "handmade",
+        "title": {
+            "ar": "بانش نيدل",
+            "en": "Punch Needle"
+        },
+        "description": {
+            "ar": "فن التطريز بالإبرة الشرقية.",
+            "en": "Punch needle embroidery art."
+        },
+        "materialsIncluded": true,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970374/IMG_5910_xbvsfx.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970344/IMG_2304_k9snrd.jpg",
+            "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1980&auto=format&fit=crop"
+        ]
+    },
+    {
+        "id": "resin",
+        "category": "handmade",
+        "title": {
+            "ar": "ريزن",
+            "en": "Resin Art"
+        },
+        "description": {
+            "ar": "فن صب الريزن ودمج الألوان.",
+            "en": "Resin casting and color mixing."
+        },
+        "materialsIncluded": true,
+        "isAcademic": true,
+        "type": "monthly",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970340/IMG_5284_xridqu.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970394/IMG_3767_ikzahg.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970394/IMG_2842_bacr5m.jpg"
+        ]
+    },
+    {
+        "id": "ws-mirrors",
+        "category": "workshops",
+        "title": {
+            "ar": "رسم على المرايا",
+            "en": "Mirror Painting"
+        },
+        "description": {
+            "ar": "ورشة يومية للرسم على المرايا.",
+            "en": "Daily workshop: painting on mirrors."
+        },
+        "materialsIncluded": true,
+        "isAcademic": true,
+        "type": "daily",
+        "images": [
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970345/IMG_4788_cm75e3.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970352/IMG_1198_gvzpxj.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970355/IMG_4780_r0j8qb.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970371/IMG_6070_v7gmji.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970391/IMG_3914_jggxfl.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970409/IMG_1177_d3itrp.jpg",
+            "https://res.cloudinary.com/dxtqkfpmr/image/upload/v1774970409/IMG_1178_ajohaw.jpg"
+        ]
+    }
+]

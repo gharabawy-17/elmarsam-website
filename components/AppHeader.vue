@@ -4,7 +4,7 @@
       <div class="flex items-center justify-between">
         <div class="logo">
           <NuxtLink to="/" class="text-2xl font-bold text-primary">
-            <img src="../app/assets/img/logo.png" alt="Logo" class="w-14" />
+            <img src="../app/assets/img/logo.png" alt="Logo" class="w-14 dark:bg-[#d4a373] rounded-md" />
           </NuxtLink>
         </div>
 

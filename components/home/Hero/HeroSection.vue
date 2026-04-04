@@ -25,17 +25,20 @@
     <div class="container mx-auto px-5 relative z-10">
       <div class="max-w-3xl mx-auto text-white">
         <h1 class="font-extrabold leading-tight mb-6"
+          data-aos="fade-up"
           style="font-size: clamp(2.5rem, 8vw, 4.5rem); text-shadow: 0 4px 20px rgba(0,0,0,0.3)">
           <span class="text-[#d4a373]">{{ t('hero.titlePrefix') }}</span>
           <span> {{ t('hero.brand') }}</span>
         </h1>
 
         <p class="mb-12 opacity-95 font-light max-w-2xl mx-auto"
+          data-aos="fade-up"
+          data-aos-delay="200"
           style="font-size: clamp(1.1rem, 4vw, 1.4rem)">
           {{ t('hero.tagline') }}
         </p>
 
-        <div class="flex flex-col sm:flex-row gap-6 justify-center">
+        <div class="flex flex-col sm:flex-row gap-6 justify-center" data-aos="fade-up" data-aos-delay="400">
           <a href="#courses"
             class="px-8 py-4 rounded-lg font-bold text-white bg-[#d4a373] hover:bg-[#b5835a] transition-all hover:-translate-y-1 shadow-lg"
             style="box-shadow: 0 4px 15px rgba(212,163,115,0.3)">

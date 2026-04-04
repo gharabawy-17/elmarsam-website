@@ -9,7 +9,7 @@
         <div class="absolute inset-0 bg-black/65"></div>
 
         <!-- Content -->
-        <div class="relative z-10 p-12 md:p-20 max-w-2xl">
+        <div class="relative z-10 p-12 md:p-20 max-w-2xl" data-aos="fade-right">
           <h4 class="text-[#d4a373] font-bold uppercase tracking-widest mb-4">{{ t('workspace.subtitle') }}</h4>
           <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
             {{ t('workspace.title') }}
@@ -20,25 +20,27 @@
 
           <!-- Features -->
           <div class="grid grid-cols-2 gap-4 mb-8">
-            <div class="flex items-center gap-3 text-white font-semibold">
+            <div class="flex items-center gap-3 text-white font-semibold" data-aos="fade-up" data-aos-delay="200">
               <i class="fa-solid fa-wifi text-[#d4a373] text-xl w-6"></i>
               <span>{{ t('workspace.features.wifi') }}</span>
             </div>
-            <div class="flex items-center gap-3 text-white font-semibold">
+            <div class="flex items-center gap-3 text-white font-semibold" data-aos="fade-up" data-aos-delay="300">
               <i class="fa-solid fa-mug-hot text-[#d4a373] text-xl w-6"></i>
               <span>{{ t('workspace.features.coffee') }}</span>
             </div>
-            <div class="flex items-center gap-3 text-white font-semibold">
+            <div class="flex items-center gap-3 text-white font-semibold" data-aos="fade-up" data-aos-delay="400">
               <i class="fa-solid fa-couch text-[#d4a373] text-xl w-6"></i>
               <span>{{ t('workspace.features.comfort') }}</span>
             </div>
-            <div class="flex items-center gap-3 text-white font-semibold">
+            <div class="flex items-center gap-3 text-white font-semibold" data-aos="fade-up" data-aos-delay="500">
               <i class="fa-regular fa-calendar-check text-[#d4a373] text-xl w-6"></i>
               <span>{{ t('workspace.features.flexible') }}</span>
             </div>
           </div>
 
           <button @click="handleReserve"
+            data-aos="zoom-in"
+            data-aos-delay="600"
             class="inline-block px-8 py-4 bg-[#d4a373] hover:bg-[#b5835a] text-white font-bold rounded-lg transition-all hover:-translate-y-1">
             {{ t('workspace.cta') }}
           </button>

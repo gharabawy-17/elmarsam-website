@@ -7,6 +7,7 @@
   "common": {
     "bookNow": "Book Now",
     "buyNow": "Buy Now",
+    "seeMore": "See More",
     "currency": "EGP"
   },
   "nav": {
@@ -39,7 +40,27 @@
   "courses": {
     "subtitle": "Learn With Us",
     "title": "Unleash Your Talents & Skills",
-    "desc": "We offer a curated selection of art and music courses for all levels, taught by experienced professionals."
+    "desc": "We offer a curated selection of art and music courses for all levels, taught by experienced professionals.",
+    "categories": {
+      "all": "All",
+      "drawing": "Drawing & Visual Arts",
+      "arts_crafts": "Arts & Sculpture",
+      "music": "Music",
+      "handmade": "Handmade",
+      "workshops": "Daily Workshops"
+    },
+    "details": {
+      "age": "Age",
+      "materials": "Materials",
+      "included": "Materials Included",
+      "notIncluded": "Materials Not Included",
+      "academic": "Academic Curriculum",
+      "prerequisite": "Prerequisite",
+      "ageRange": "Age Range",
+      "materialsTitle": "Materials & Tools",
+      "descriptionTitle": "About the Course",
+      "backToCourses": "Back to Courses"
+    }
   },
   "products": {
     "subtitle": "Al-Marsam Store",
