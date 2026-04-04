@@ -4,7 +4,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 rounded-3xl overflow-hidden shadow-2xl border border-gray-100 dark:border-white/10">
 
         <!-- Info Side -->
-        <div class="bg-gray-50 dark:bg-[#161722] p-14 md:p-20" data-aos="fade-right">
+        <div class="bg-gray-50 dark:bg-[#161722] p-10 md:p-20" data-aos="fade-right">
           <h4 class="text-[#d4a373] font-bold uppercase tracking-widest mb-3">{{ t('contact.subtitle') }}</h4>
           <h2 class="text-4xl font-extrabold mb-4 text-gray-900 dark:text-white">{{ t('contact.title') }}</h2>
           <p class="text-gray-500 dark:text-gray-300 mb-12 leading-relaxed">
@@ -13,7 +13,7 @@
 
           <div class="flex flex-col gap-8">
             <div class="flex items-start gap-5" data-aos="fade-up" data-aos-delay="100">
-              <div class="w-12 h-12 rounded-xl bg-white/10 border border-gray-200 dark:border-white/10 flex items-center justify-center text-[#d4a373] flex-shrink-0">
+              <div class="w-12 h-12 rounded-xl bg-white dark:bg-white/5 border border-gray-200 dark:border-white/10 flex items-center justify-center text-[#d4a373] flex-shrink-0 shadow-sm">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
               <div>
@@ -22,7 +22,7 @@
               </div>
             </div>
             <div class="flex items-start gap-5" data-aos="fade-up" data-aos-delay="200">
-              <div class="w-12 h-12 rounded-xl bg-white/10 border border-gray-200 dark:border-white/10 flex items-center justify-center text-[#d4a373] flex-shrink-0">
+              <div class="w-12 h-12 rounded-xl bg-white dark:bg-white/5 border border-gray-200 dark:border-white/10 flex items-center justify-center text-[#d4a373] flex-shrink-0 shadow-sm">
                 <i class="fa-solid fa-phone"></i>
               </div>
               <div>
@@ -30,28 +30,43 @@
                 <p class="font-semibold text-gray-900 dark:text-white" dir="ltr">{{ t('contact.phone') }}</p>
               </div>
             </div>
-            <div class="flex items-start gap-5" data-aos="fade-up" data-aos-delay="300">
-              <div class="w-12 h-12 rounded-xl bg-white/10 border border-gray-200 dark:border-white/10 flex items-center justify-center text-[#d4a373] flex-shrink-0">
-                <i class="fa-solid fa-envelope"></i>
-              </div>
-              <div>
-                <h5 class="text-xs uppercase tracking-widest text-gray-400 mb-1">{{ t('contact.emailLabel') }}</h5>
-                <p class="font-semibold text-gray-900 dark:text-white">{{ t('contact.email') }}</p>
-              </div>
+          </div>
+
+          <!-- Social Media Icons -->
+          <div class="mt-12" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="text-xs uppercase tracking-widest text-gray-400 mb-4">{{ t('contact.socialTitle') }}</h5>
+            <div class="flex flex-wrap gap-3">
+              <a 
+                v-for="social in socialLinks" 
+                :key="social.name" 
+                :href="social.url"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-11 h-11 rounded-xl bg-white dark:bg-white/5 border border-gray-200 dark:border-white/10 flex items-center justify-center text-gray-600 dark:text-gray-400 hover:text-white transition-all duration-300 hover:scale-110 shadow-sm hover:shadow-lg social-icon"
+                :style="{ '--hover-bg': social.color }"
+                :aria-label="social.name"
+              >
+                <i :class="social.icon"></i>
+              </a>
             </div>
           </div>
 
-          <!-- Social -->
-          <div class="flex gap-3 mt-12" data-aos="zoom-in" data-aos-delay="400">
-            <a v-for="icon in ['instagram', 'facebook-f', 'x-twitter']" :key="icon" href="#"
-              class="w-11 h-11 rounded-full bg-gray-200 dark:bg-white/10 flex items-center justify-center hover:bg-[#d4a373] hover:text-white transition-all">
-              <i :class="`fa-brands fa-${icon}`"></i>
+          <!-- Direct WhatsApp Button -->
+          <div class="mt-10" data-aos="fade-up" data-aos-delay="400">
+            <a 
+              href="https://wa.me/201270982997"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-3 px-8 py-4 bg-[#25D366] hover:bg-[#128C7E] text-white font-bold rounded-2xl transition-all hover:-translate-y-1 shadow-lg group"
+            >
+              <i class="fa-brands fa-whatsapp text-2xl group-hover:scale-125 transition-transform"></i>
+              <span>{{ t('common.bookNow') }} عبر واتساب</span>
             </a>
           </div>
         </div>
 
         <!-- Form Side -->
-        <div class="bg-white dark:bg-[#1c1d29] p-14 md:p-20" data-aos="fade-left">
+        <div class="bg-white dark:bg-[#1c1d29] p-10 md:p-20" data-aos="fade-left">
           <h3 class="text-3xl font-extrabold mb-8 text-gray-900 dark:text-white">{{ t('contact.form.title') }}</h3>
           <div class="flex flex-col gap-6">
             <div data-aos="fade-up" data-aos-delay="100">
@@ -96,14 +111,14 @@
 import { useI18n } from '#imports'
 import { useWhatsApp } from '../../../composables/useWhatsApp'
 import { useContact } from '../../../composables/useContact'
+import { useSocialLinks } from '../../../composables/useSocialLinks'
 
 const { t } = useI18n()
 const { sendWhatsAppMessage } = useWhatsApp()
 const { form } = useContact()
+const { socialLinks } = useSocialLinks()
 
 const submitToWhatsApp = () => {
-  console.log('form', form);
-  
   const services = {
     course: t('contact.form.options.course'),
     workspace: t('contact.form.options.workspace'),
@@ -123,3 +138,10 @@ ${form.message}
   sendWhatsAppMessage(messageText)
 }
 </script>
+
+<style scoped>
+.social-icon:hover {
+  background-color: var(--hover-bg) !important;
+  border-color: var(--hover-bg) !important;
+}
+</style>

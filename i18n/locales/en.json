@@ -107,12 +107,13 @@
   "contact": {
     "subtitle": "Stay in Touch",
     "title": "Contact Us",
+    "socialTitle": "Follow Us",
     "desc": "Whether you want to book a course, reserve workspace, or ask a question, our team is ready to help.",
     "locationLabel": "Location",
     "phoneLabel": "Phone",
     "emailLabel": "Email",
     "location": "Kafr El-Dawwar, Al-Mahkama Street",
-    "phone": "+20 1210593376",
+    "phone": "+201270982997",
     "email": "info{'@'}al-marsam.com",
     "form": {
       "title": "Send a Message",
@@ -137,6 +138,8 @@
     }
   },
   "footer": {
+    "socialTitle": "Follow Us on Social Media",
+    "developedBy": "Developed by",
     "copyright": "© 2026 Al-Marsam. All rights reserved."
   }
 }

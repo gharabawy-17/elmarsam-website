@@ -20,7 +20,7 @@ notes:
 
 * hero section video
 * products section items
-* footer
+* footer done 
 * animation
 * reviews
 * seo & ssr

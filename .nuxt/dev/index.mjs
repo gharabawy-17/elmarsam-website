@@ -1,43 +1,43 @@
 import process from 'node:process';globalThis._importMeta_={url:import.meta.url,env:process.env};import { tmpdir } from 'node:os';
-import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, getResponseStatus, createError, getCookie, setCookie, sanitizeStatusCode, removeResponseHeader, getQuery as getQuery$1, readBody, getRouterParam, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatusText } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/h3/dist/index.mjs';
 import { Server } from 'node:http';
 import { resolve, dirname, join } from 'node:path';
 import nodeCrypto from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
-import { escapeHtml } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/@vue/shared/dist/shared.cjs.js';
-import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, joinRelativeURL, parsePath, withLeadingSlash, withoutTrailingSlash, withTrailingSlash, decodePath } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/ufo/dist/index.mjs';
-import destr, { destr as destr$1 } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/destr/dist/index.mjs';
-import { createHooks } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/nitropack/node_modules/hookable/dist/index.mjs';
-import { createFetch, Headers as Headers$1 } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/ofetch/dist/node.mjs';
-import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/node-mock-http/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/unstorage/drivers/fs.mjs';
-import { digest } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/ohash/dist/index.mjs';
-import { klona } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/klona/dist/index.mjs';
-import defu, { defuFn, createDefu } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/defu/dist/defu.mjs';
-import { snakeCase } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/scule/dist/index.mjs';
-import { getContext } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/unctx/dist/index.mjs';
-import { toRouteMatcher, createRouter } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/radix3/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, getResponseStatus, createError, getCookie, setCookie, sanitizeStatusCode, removeResponseHeader, getQuery as getQuery$1, readBody, getRouterParam, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatusText } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/h3/dist/index.mjs';
+import { escapeHtml } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/@vue/shared/dist/shared.cjs.js';
+import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, joinRelativeURL, parsePath, withLeadingSlash, withoutTrailingSlash, withTrailingSlash, decodePath } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/ufo/dist/index.mjs';
+import destr, { destr as destr$1 } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/destr/dist/index.mjs';
+import { renderToString } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/vue/server-renderer/index.mjs';
+import { klona } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/klona/dist/index.mjs';
+import defu, { defuFn, createDefu } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/defu/dist/defu.mjs';
+import { snakeCase } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/scule/dist/index.mjs';
+import { createHead as createHead$1, propsToString, renderSSRHead } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/unhead/dist/server.mjs';
+import { stringify, uneval } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/devalue/index.js';
+import { isVNode, isRef, toValue } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/vue/index.mjs';
+import { createHooks } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/nitropack/node_modules/hookable/dist/index.mjs';
+import { createFetch, Headers as Headers$1 } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/ofetch/dist/node.mjs';
+import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/node-mock-http/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/unstorage/drivers/fs.mjs';
+import { digest } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/ohash/dist/index.mjs';
+import { toRouteMatcher, createRouter } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/radix3/dist/index.mjs';
 import { readFile } from 'node:fs/promises';
-import consola, { consola as consola$1 } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/consola/dist/index.mjs';
-import { ErrorParser } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/youch-core/build/index.js';
-import { Youch } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/youch/build/index.js';
-import { SourceMapConsumer } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/source-map/source-map.js';
-import { createRouterMatcher } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/vue-router/vue-router.node.mjs';
+import consola, { consola as consola$1 } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/consola/dist/index.mjs';
+import { ErrorParser } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/youch-core/build/index.js';
+import { Youch } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/youch/build/index.js';
+import { SourceMapConsumer } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/source-map/source-map.js';
+import { createRouterMatcher } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/vue-router/vue-router.node.mjs';
 import { AsyncLocalStorage } from 'node:async_hooks';
-import { stringify, uneval } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/devalue/index.js';
-import { captureRawStackTrace, parseRawStackTrace } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/errx/dist/index.js';
-import { isVNode, isRef, toValue } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/vue/index.mjs';
-import _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/@nuxt/vite-builder/dist/fix-stacktrace.mjs';
+import { getContext } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/unctx/dist/index.mjs';
+import { captureRawStackTrace, parseRawStackTrace } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/errx/dist/index.js';
+import _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/@nuxt/vite-builder/dist/fix-stacktrace.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname as dirname$1, resolve as resolve$1 } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/pathe/dist/index.mjs';
-import { createHead as createHead$1, propsToString, renderSSRHead } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/unhead/dist/server.mjs';
-import { renderToString } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/vue/server-renderer/index.mjs';
-import { walkResolver } from 'file:///home/gharabawy/Pictures/elmarsam-website/node_modules/unhead/dist/utils.mjs';
+import { dirname as dirname$1, resolve as resolve$1 } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/pathe/dist/index.mjs';
+import { walkResolver } from 'file://E:/projects/al_marsam/elmarsam-website/node_modules/unhead/dist/utils.mjs';
 
-const serverAssets = [{"baseName":"server","dir":"/home/gharabawy/Pictures/elmarsam-website/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"E:/projects/al_marsam/elmarsam-website/server/assets"}];
 
 const assets$1 = createStorage();
 
@@ -49,11 +49,11 @@ const storage$1 = createStorage({});
 
 storage$1.mount('/assets', assets$1);
 
-storage$1.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/gharabawy/Pictures/elmarsam-website","watchOptions":{"ignored":[null]}}));
-storage$1.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/gharabawy/Pictures/elmarsam-website/server","watchOptions":{"ignored":[null]}}));
-storage$1.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/gharabawy/Pictures/elmarsam-website/.nuxt"}));
-storage$1.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/gharabawy/Pictures/elmarsam-website/.nuxt/cache"}));
-storage$1.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/home/gharabawy/Pictures/elmarsam-website/.data/kv"}));
+storage$1.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"E:/projects/al_marsam/elmarsam-website","watchOptions":{"ignored":[null]}}));
+storage$1.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"E:/projects/al_marsam/elmarsam-website/server","watchOptions":{"ignored":[null]}}));
+storage$1.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"E:/projects/al_marsam/elmarsam-website/.nuxt"}));
+storage$1.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"E:/projects/al_marsam/elmarsam-website/.nuxt/cache"}));
+storage$1.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"E:/projects/al_marsam/elmarsam-website/.data/kv"}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage$1, base) : storage$1;
@@ -747,11 +747,6 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
     }
     return void 0;
   }
-});
-
-getContext("nitro-app", {
-  asyncContext: false,
-  AsyncLocalStorage: void 0
 });
 
 const config = useRuntimeConfig();
@@ -2081,7 +2076,7 @@ if (!window.__NUXT_DEVTOOLS_TIME_METRIC__) {
 window.__NUXT_DEVTOOLS_TIME_METRIC__.appInit = Date.now()
 `;
 
-const _G3N6ilhv_Acfz15iZ9jbzTyHrpetEYGU0H5IScJNdaA = (function(nitro) {
+const _cMiIn0kfmuCGtYtZySskXliGRxagU9Y5ke5CaT5ncH4 = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
@@ -2293,12 +2288,13 @@ var testimonials$1 = {
 var contact$1 = {
 	subtitle: "ابقى على تواصل",
 	title: "تواصل معنا",
+	socialTitle: "تابعنا على وسائل التواصل",
 	desc: "سواء كنت ترغب في حجز دورة، أو مكان للعمل، أو لديك أي استفسار، فريقنا جاهز لمساعدتك!",
 	locationLabel: "الموقع",
 	phoneLabel: "رقم الهاتف",
 	emailLabel: "البريد الإلكتروني",
 	location: "كفر الدوار، شارع المحكمة",
-	phone: "+20 1210593376",
+	phone: "+201270982997",
 	email: "info{'@'}al-marsam.com",
 	form: {
 		title: "أرسل رسالة",
@@ -2323,9 +2319,11 @@ var contact$1 = {
 	}
 };
 var footer$1 = {
+	socialTitle: "تابعنا على وسائل التواصل الاجتماعي",
+	developedBy: "تم التطوير بواسطة",
 	copyright: "© 2026 المرسم (Al-Marsam). جميع الحقوق محفوظة."
 };
-const locale_ar_46json_c26e9ef7 = {
+const locale_ar_46json_de293923 = {
 	pageTitle: pageTitle$1,
 	meta: meta$1,
 	common: common$1,
@@ -2449,12 +2447,13 @@ var testimonials = {
 var contact = {
 	subtitle: "Stay in Touch",
 	title: "Contact Us",
+	socialTitle: "Follow Us",
 	desc: "Whether you want to book a course, reserve workspace, or ask a question, our team is ready to help.",
 	locationLabel: "Location",
 	phoneLabel: "Phone",
 	emailLabel: "Email",
 	location: "Kafr El-Dawwar, Al-Mahkama Street",
-	phone: "+20 1210593376",
+	phone: "+201270982997",
 	email: "info{'@'}al-marsam.com",
 	form: {
 		title: "Send a Message",
@@ -2479,9 +2478,11 @@ var contact = {
 	}
 };
 var footer = {
+	socialTitle: "Follow Us on Social Media",
+	developedBy: "Developed by",
 	copyright: "© 2026 Al-Marsam. All rights reserved."
 };
-const locale_en_46json_bc1f581c = {
+const locale_en_46json_3775d669 = {
 	pageTitle: pageTitle,
 	meta: meta,
 	common: common,
@@ -2505,15 +2506,15 @@ const localeCodes =  [
 const localeLoaders = {
   ar: [
     {
-      key: "locale_ar_46json_c26e9ef7",
-      load: () => Promise.resolve(locale_ar_46json_c26e9ef7),
+      key: "locale_ar_46json_de293923",
+      load: () => Promise.resolve(locale_ar_46json_de293923),
       cache: true
     }
   ],
   en: [
     {
-      key: "locale_en_46json_bc1f581c",
-      load: () => Promise.resolve(locale_en_46json_bc1f581c),
+      key: "locale_en_46json_3775d669",
+      load: () => Promise.resolve(locale_en_46json_3775d669),
       cache: true
     }
   ]
@@ -2947,7 +2948,7 @@ function createRedirectResponse(event, dest, code) {
     body: `<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=${dest.replace(/"/g, "%22")}"></head></html>`
   };
 }
-const _y4vvomfd3Vdsg6kVmB3kxZq1Mevoa7QTQz9FBbTHuAQ = defineNitroPlugin(async (nitro) => {
+const _SKAbhzkdgdmUPDYPoELGPppHnAM1X4ME5A8RVL6HE = defineNitroPlugin(async (nitro) => {
   const runtimeI18n = useRuntimeI18n();
   const rootRedirect = resolveRootRedirect(runtimeI18n.rootRedirect);
   runtimeI18n.defaultLocale || "";
@@ -3030,7 +3031,7 @@ const _y4vvomfd3Vdsg6kVmB3kxZq1Mevoa7QTQz9FBbTHuAQ = defineNitroPlugin(async (ni
     const localeSegment = detector.route(event.path);
     const pathLocale = isSupportedLocale(localeSegment) && localeSegment || void 0;
     const path = (pathLocale && url.pathname.slice(pathLocale.length + 1)) ?? url.pathname;
-    if (!url.pathname.includes("/_i18n/OyI7g5VS") && !isExistingNuxtRoute(path)) {
+    if (!url.pathname.includes("/_i18n/Q5QDWO_t") && !isExistingNuxtRoute(path)) {
       return;
     }
     const resolved = resolveRedirectPath(event, path, pathLocale, ctx.vueI18nOptions.defaultLocale, detector);
@@ -3050,7 +3051,7 @@ const _y4vvomfd3Vdsg6kVmB3kxZq1Mevoa7QTQz9FBbTHuAQ = defineNitroPlugin(async (ni
   });
 });
 
-const rootDir = "/home/gharabawy/Pictures/elmarsam-website";
+const rootDir = "E:/projects/al_marsam/elmarsam-website";
 
 const devReducers = {
 	VNode: (data) => isVNode(data) ? {
@@ -3063,7 +3064,7 @@ const asyncContext = getContext("nuxt-dev", {
 	asyncContext: true,
 	AsyncLocalStorage
 });
-const _vNSADbx12TsGupBzfQmJthiOOs7QnpO4a0mgMz8cUJU = (nitroApp) => {
+const _AYXvapwz0U3YD8Iyt_U6GHm2mJcNltx4Eh5zyBQI8o = (nitroApp) => {
 	const handler = nitroApp.h3App.handler;
 	nitroApp.h3App.handler = (event) => {
 		return asyncContext.callAsync({
@@ -3137,25 +3138,25 @@ function onConsoleLog(callback) {
 }
 
 const plugins = [
-  _G3N6ilhv_Acfz15iZ9jbzTyHrpetEYGU0H5IScJNdaA,
-_y4vvomfd3Vdsg6kVmB3kxZq1Mevoa7QTQz9FBbTHuAQ,
-_vNSADbx12TsGupBzfQmJthiOOs7QnpO4a0mgMz8cUJU,
+  _cMiIn0kfmuCGtYtZySskXliGRxagU9Y5ke5CaT5ncH4,
+_SKAbhzkdgdmUPDYPoELGPppHnAM1X4ME5A8RVL6HE,
+_AYXvapwz0U3YD8Iyt_U6GHm2mJcNltx4Eh5zyBQI8o,
 _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 ];
 
 const assets = {
   "/index.mjs": {
     "type": "text/javascript; charset=utf-8",
-    "etag": "\"22cf2-XNVx1gHLRdMP2zydMboSUk7Ipy8\"",
-    "mtime": "2026-04-04T10:47:31.971Z",
-    "size": 142578,
+    "etag": "\"22ee6-tYK8aSdELuqIEj5dZflkvQUpx74\"",
+    "mtime": "2026-04-04T17:04:54.349Z",
+    "size": 143078,
     "path": "index.mjs"
   },
   "/index.mjs.map": {
     "type": "application/json",
-    "etag": "\"83965-XifVahj73sI7mG/FhJpi8HOCJ3k\"",
-    "mtime": "2026-04-04T10:47:31.971Z",
-    "size": 538981,
+    "etag": "\"83815-2faeFf06iViX8C3e/A1Y2cF9YSA\"",
+    "mtime": "2026-04-04T17:04:54.349Z",
+    "size": 538645,
     "path": "index.mjs.map"
   }
 };
@@ -3183,7 +3184,7 @@ function getAsset (id) {
 
 const METHODS = /* @__PURE__ */ new Set(["HEAD", "GET"]);
 const EncodingMap = { gzip: ".gz", br: ".br" };
-const _mkVTu8 = eventHandler((event) => {
+const _Y2zFiy = eventHandler((event) => {
   if (event.method && !METHODS.has(event.method)) {
     return;
   }
@@ -3310,9 +3311,9 @@ function setSSRError(ssrContext, error) {
 const APP_ROOT_OPEN_TAG = `<${appRootTag}${propsToString(appRootAttrs)}>`;
 const APP_ROOT_CLOSE_TAG = `</${appRootTag}>`;
 // @ts-expect-error file will be produced after app build
-const getServerEntry = () => import('file:///home/gharabawy/Pictures/elmarsam-website/.nuxt//dist/server/server.mjs').then((r) => r.default || r);
+const getServerEntry = () => import('file://E:/projects/al_marsam/elmarsam-website/.nuxt//dist/server/server.mjs').then((r) => r.default || r);
 // @ts-expect-error file will be produced after app build
-const getClientManifest = () => import('file:///home/gharabawy/Pictures/elmarsam-website/.nuxt//dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getClientManifest = () => import('file://E:/projects/al_marsam/elmarsam-website/.nuxt//dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 // -- SSR Renderer --
 const getSSRRenderer = lazyCachedFunction(async () => {
 	// Load server bundle
@@ -3719,16 +3720,16 @@ defineCachedEventHandler(_cachedMessageLoader, {
   swr: false,
   getKey: (event) => [getRouterParam(event, "locale") ?? "null", getRouterParam(event, "hash") ?? "null"].join("-")
 });
-const __wsJ7W = _messagesHandler ;
+const _hzDdxb = _messagesHandler ;
 
-const _lazy_sY_Wrn = () => Promise.resolve().then(function () { return renderer; });
+const _lazy_bn9Zsg = () => Promise.resolve().then(function () { return renderer; });
 
 const handlers = [
-  { route: '', handler: _mkVTu8, lazy: false, middleware: true, method: undefined },
-  { route: '/__nuxt_error', handler: _lazy_sY_Wrn, lazy: true, middleware: false, method: undefined },
+  { route: '', handler: _Y2zFiy, lazy: false, middleware: true, method: undefined },
+  { route: '/__nuxt_error', handler: _lazy_bn9Zsg, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_island/**', handler: handler$1, lazy: false, middleware: false, method: undefined },
-  { route: '/_i18n/:hash/:locale/messages.json', handler: __wsJ7W, lazy: false, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_sY_Wrn, lazy: true, middleware: false, method: undefined }
+  { route: '/_i18n/:hash/:locale/messages.json', handler: _hzDdxb, lazy: false, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_bn9Zsg, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
